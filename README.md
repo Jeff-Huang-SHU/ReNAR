@@ -30,7 +30,6 @@ toolz>=0.12.1
 
 We follow the framework of the CLRS library and modify some files in it. So, you need to first install the CLRS packages.
 `pip install git+https://github.com/google-deepmind/clrs.git`
-After installation, you can replace the files with the same names in the clrs/_src folder by placing the `baselines.py`, `nets.py`, `loss.py` files from the **ReNAR** folder into it.
 
 ## Running Experiments
 
