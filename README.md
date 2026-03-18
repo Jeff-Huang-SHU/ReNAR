@@ -28,7 +28,7 @@ toolz>=0.12.1
 ## Installation
 
 We follow the framework of the CLRS library and modify some files in it. So, you need to first install the CLRS packages.
-`pip install git+https://github.com/google-deepmind/clrs.git`
+* `pip install git+https://github.com/google-deepmind/clrs.git`
 
 ## Running Experiments
 
