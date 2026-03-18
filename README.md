@@ -33,11 +33,15 @@ We follow the framework of the CLRS library and modify some files in it. So, you
 ## Running Experiments
 
 All hyperparameters are defined in the `flags.DEFINE` sections at the beginning of the source files. You can modify them to adjust settings such as the random seed, processor type, batch size, and more. The current default values correspond to the experimental configurations used in this paper.
-The main hyperparameters include `mlm_ratio`, `mlm_loss_lambda`, and `rec_loss_lambda`.
+The main hyperparameters include:
+* `mlm_ratio`
+* `mlm_loss_lambda`
+* `rec_loss_lambda`
+  
 If you would like to run experiments with **ReNAR**, you may refer to the following command as an example:
-``python3 -m run --mlm_ratio 0.0 --rec_loss_lambda 0.1 --algorithms floyd_warshall``
+* ``python3 -m run --mlm_ratio 0.0 --rec_loss_lambda 0.1 --algorithms floyd_warshall``
 If you would like to run experiments with **M-ReNAR**, you may refer to the following command as an example:
-``python3 -m run --mlm_ratio 0.3 --mlm_loss_lambda 1.0 --rec_loss_lambda 0.0 --algorithms floyd_warshall``
+* ``python3 -m run --mlm_ratio 0.3 --mlm_loss_lambda 1.0 --rec_loss_lambda 0.0 --algorithms floyd_warshall``
 The algorithms to be trained can be found in the `algo_list`.
 
 ```
