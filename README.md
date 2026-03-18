@@ -5,6 +5,7 @@ This is the official code for the article *Richer Representations for Neural Alg
 In this paper, we propose a novel framework called **ReNAR**, which integrates a redesigned enhanced encoder architecture and a representation reconstruction module. This framework is built upon the standard "encoder–processor–decoder" paradigm for neural algorithmic reasoning (NAR), and is designed to better capture the dependencies among 'hints', thereby enabling the model to learn more powerful representations for algorithmic reasoning.Building on **ReNAR**, we further incorporate masked reconstruction techniques inspired by self-supervised learning to develop an enhanced variant, **M-ReNAR**. Using this framework, we conduct two main experiments: one based on **ReNAR**, and the other on **M-ReNAR**.
 In the files we provided, you'll find two main folders.
 
+Paper Link: https://doi.org/10.1609/aaai.v40i26.39350
 ## Requirements
 
 ```
