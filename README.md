@@ -40,8 +40,11 @@ The main hyperparameters include:
   
 If you would like to run experiments with **ReNAR**, you may refer to the following command as an example:
 * ``python3 -m run --mlm_ratio 0.0 --rec_loss_lambda 0.1 --algorithms floyd_warshall``
+
 If you would like to run experiments with **M-ReNAR**, you may refer to the following command as an example:
+
 * ``python3 -m run --mlm_ratio 0.3 --mlm_loss_lambda 1.0 --rec_loss_lambda 0.0 --algorithms floyd_warshall``
+
 The algorithms to be trained can be found in the `algo_list`.
 
 ```
